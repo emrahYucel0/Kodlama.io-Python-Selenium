@@ -26,32 +26,31 @@ Sadece HTML ile web sayfaları hazırlamak mümkündür. Bu web sayfaları Stati
 ```
 
 
-<!DOCTYPE html> komutu bu dosyanın HTML5 formatında olduğunu ve içeriklerin bu formata uygun hazırlandığını tarayıcıya bildiren komuttur ve etiket olmadığı için kapatılmasına gerek yoktur. Sonraki satırda gelen <html> etiketleri arasına HTML kodu yazılarak sayfa oluşturulur. Bu etiketin içerisindeki <lang="tr"> ise tarayıcıya bu sayfanın Türkçe dilinde olduğunu söylemektedir. HTML dosyaları iki ana kısımdan oluşur. Bunlar dosyanın içeriği, yazarı gibi genel bilgilerin olduğu <head> ve ekranda gösterilen tüm ögelerin bulunduğu <body> kısımlarıdır.
+"!DOCTYPE html" komutu bu dosyanın HTML5 formatında olduğunu ve içeriklerin bu formata uygun hazırlandığını tarayıcıya bildiren komuttur ve etiket olmadığı için kapatılmasına gerek yoktur. Sonraki satırda gelen "html" etiketleri arasına HTML kodu yazılarak sayfa oluşturulur. Bu etiketin içerisindeki lang="tr" ise tarayıcıya bu sayfanın Türkçe dilinde olduğunu söylemektedir. HTML dosyaları iki ana kısımdan oluşur. Bunlar dosyanın içeriği, yazarı gibi genel bilgilerin olduğu "head" ve ekranda gösterilen tüm ögelerin bulunduğu "body" kısımlarıdır.
 
 # HTML ETİKETLERİ
 
 ## Başlık Etiketleri
 
-HTML sayfalarda bulunan metinlerin başlıklarını belirtmek için “Başlık Etiketleri” olarak adlandırılan özel tanımlamalar vardır. <h1>, <h2>, <h3>, <h4>, <h5>, <h6> sırasıyla en büyük başlıktan en küçük başlığa doğru gitmektedir.
+HTML sayfalarda bulunan metinlerin başlıklarını belirtmek için “Başlık Etiketleri” olarak adlandırılan özel tanımlamalar vardır. "h1", "h2", "h3", "h4", "h5", "h6" sırasıyla en büyük başlıktan en küçük başlığa doğru gitmektedir.
 
 ## Paragraf Etiketi
 
-Paragrafları etiketlemek için <p> etiketi kullanılır.Tarayıcılar paragraf etiketlerinin öncesine ve sonrasına boşluk koyarak
-paragrafları ayırırlar.
+Paragrafları etiketlemek için "p" etiketi kullanılır.Tarayıcılar paragraf etiketlerinin öncesine ve sonrasına boşluk koyarak paragrafları ayırırlar.
 
 ## Biçimlendirme Etiketleri
 
-<b></b> : Metin içerinde kalın göstermek istediğimiz kısım bu blok içine yazılır.
-<strong></strong> : SEO algoritmasına metin içindeki anahtar kelimeleri verir.
-<i></i> : Sağa italik yazmak için kullanılır.
-<em></em> : Metin seslendirme algoritmalarında içindeki kelime bloğunun farklı ses tonuyla okunmasını sağlar.
-<del></del> : Etiketi ile işaretlenen kelimenin üzeri çizilir.
-<mark></mark> : Metin arka planını sarı vurgular.
-<u></u> : Kelimenin altı çizilir
-<small></small> : Yazının diğer bölümlerine göre daha ufak yazdırır.
-<abbr title=""></abbr> : Kısaltılan kelimenin uzun hali title içine yazılır.
-<q> : Kısa alıntılar diye adlandırılan cümlelerde kullanılabilir
-<blockquote> : Uzun alıntılarda kullanılır.
+1. "b" : Metin içerinde kalın göstermek istediğimiz kısım bu blok içine yazılır.
+2. "strong" : SEO algoritmasına metin içindeki anahtar kelimeleri verir.
+3. "i" : Sağa italik yazmak için kullanılır.
+4. "em" : Metin seslendirme algoritmalarında içindeki kelime bloğunun farklı ses tonuyla okunmasını sağlar.
+5. "del" : Etiketi ile işaretlenen kelimenin üzeri çizilir.
+6. "mark" : Metin arka planını sarı vurgular.
+7. "u" : Kelimenin altı çizilir
+8. "small" : Yazının diğer bölümlerine göre daha ufak yazdırır.
+9. "abbr title=" : Kısaltılan kelimenin uzun hali title içine yazılır.
+10. "q" : Kısa alıntılar diye adlandırılan cümlelerde kullanılabilir
+11. "blockquote" : Uzun alıntılarda kullanılır.
 
 ## Resim Etiketi
 
@@ -68,15 +67,15 @@ Web sayfalarında resim göstermek için kullanılan <img> etiketi kapanış eti
 
 ## Linkler
 
-Dosyalar arasında geçiş yapmak için <a> etiketini kullanabiliriz. Bu etiketin içerisindeki "href" özelliği ile gidilecek sayfanın konumu belirtilir. Bu etiketin aldığı başka bir özellik olan "target" ile sayfanın açılacağı konumu belirleyenebilir. Sayfayı aynı sekmede açmak için target="_self", farklı sekmede açmak için target="_blank" kullanabilir.
+Dosyalar arasında geçiş yapmak için "a" etiketini kullanabiliriz. Bu etiketin içerisindeki "href" özelliği ile gidilecek sayfanın konumu belirtilir. Bu etiketin aldığı başka bir özellik olan "target" ile sayfanın açılacağı konumu belirleyenebilir. Sayfayı aynı sekmede açmak için target="_self", farklı sekmede açmak için target="_blank" kullanabilir.
 
 ## Listeler
 
-Eklenen elemanları sıralı ve sırasız gösterebileceğiniz iki tür etiket vardır. <ol> etiketi içerisindeki <li> elemanlarını rakamla sıralayarak gösterir.<ul> ile <li> elemanlarını sıralarken rakam yerine başında nokta ile işaretleyerek gösterir. Bu iki liste türünün haricinde açıklama amaçlı kullanılan <dl> etiketi de vardır. Alt eleman olarak <dt> ve <dd> elemanlarını alır.
+Eklenen elemanları sıralı ve sırasız gösterebileceğiniz iki tür etiket vardır. "ol" etiketi içerisindeki "li" elemanlarını rakamla sıralayarak gösterir."ul" ile "li" elemanlarını sıralarken rakam yerine başında nokta ile işaretleyerek gösterir. Bu iki liste türünün haricinde açıklama amaçlı kullanılan "dl" etiketi de vardır. Alt eleman olarak "dt" ve "dd" elemanlarını alır.
 
 ## Görüntü Seviyeleri
 
-Temelde 2 tane görüntü seviyesi vardır. Etiket tüm satırı kaplıyorsa block ve sadece içeriği kadar alan kaplıyorsa inline olarak adlandırılır. <div> etiketi genel olarak sayfayı bölümlemek için kullanılır. Bu etiketin genişliği tüm sayfayı kaplayan %100 boyutundadır. İçerisine aldığı nesnenin genişliğinden bağımsız olarak tüm satırı kapladığı için block elemadır. <span> ise sadece içerdiği eleman kadar alan kaplar. Block elemanlardan sonra gelen her eleman bir alt satırdan başlar.
+Temelde 2 tane görüntü seviyesi vardır. Etiket tüm satırı kaplıyorsa block ve sadece içeriği kadar alan kaplıyorsa inline olarak adlandırılır. "div" etiketi genel olarak sayfayı bölümlemek için kullanılır. Bu etiketin genişliği tüm sayfayı kaplayan %100 boyutundadır. İçerisine aldığı nesnenin genişliğinden bağımsız olarak tüm satırı kapladığı için block elemadır. "span" ise sadece içerdiği eleman kadar alan kaplar. Block elemanlardan sonra gelen her eleman bir alt satırdan başlar.
 
 ---
 
