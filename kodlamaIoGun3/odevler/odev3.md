@@ -79,7 +79,9 @@ Temelde 2 tane görüntü seviyesi vardır. Etiket tüm satırı kaplıyorsa blo
 
 ---
 
+
 ***Konu2 = HTML locators hakkında bilgi veriniz***
+
 
 ---
 
@@ -96,7 +98,9 @@ HTML sayfalarında, sayfadaki öğeleri belirlemek ve onlarla etkileşimde bulun
 
 ---
 
+
 ***Konu3 = Selenium'da aksiyonlar hakkında bilgi veriniz.***
+
 
 ---
 
