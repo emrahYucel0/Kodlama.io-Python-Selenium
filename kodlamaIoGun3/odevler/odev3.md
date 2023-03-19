@@ -96,7 +96,7 @@ HTML sayfalarında, sayfadaki öğeleri belirlemek ve onlarla etkileşimde bulun
 
 ---
 
-***Konu3 = Selenium'da aksiyonlar hakkında bilgi veriniz.
+***Konu3 = Selenium'da aksiyonlar hakkında bilgi veriniz.***
 
 ---
 
