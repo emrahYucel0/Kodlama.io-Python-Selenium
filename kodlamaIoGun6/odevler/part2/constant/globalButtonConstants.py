@@ -1,0 +1,18 @@
+BTN_LOGIN_ID = "login-button"
+BTN_BURGERMENU_ID = "react-burger-menu-btn"
+BTN_LOGOUT_ID = "logout_sidebar_link"
+BTN_CHECKOUT_ID = "checkout"
+BTN_CONTINUE_SHOPPING_ID = "continue-shopping"
+BTN_CONTINUE_ID = "continue"
+BTN_FINISH_ID = "finish"
+BTN_CART_ID = "shopping_cart_container"
+
+ADD_BACKPACK_ID = "add-to-cart-sauce-labs-backpack"
+ADD_LIGHT_ID = "add-to-cart-sauce-labs-bike-light"
+ADD_JACKET_ID = "add-to-cart-sauce-labs-fleece-jacket"
+ADD_TSHIRT_ID = "add-to-cart-sauce-labs-bolt-t-shirt"
+ADD_TSHIRT_RED_ID = "add-to-cart-test.allthethings()-t-shirt-(red)"
+ADD_ONESIE_ID = "add-to-cart-sauce-labs-onesie"
+
+LINK_TWITTER = "Twitter"
+LINK_FACEBOOK = "Facebook"
